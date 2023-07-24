@@ -32,7 +32,7 @@ double temperatureSensorRead(TemperatureSensor *temperatureSensor)
 
     // if(temperatureSensor->prevTemperature != temperatureSensor->temperature){
         // ESP_LOGI(TAG, "Voltage: %f\n", voltage);
-        ESP_LOGI(TAG, "Temperature: %f\n", temperatureSensor->temperature);
+        // ESP_LOGI(TAG, "Temperature: %f\n", temperatureSensor->temperature);
     // }
 
     return temperatureSensor->temperature;
