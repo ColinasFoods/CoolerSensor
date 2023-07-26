@@ -1,6 +1,6 @@
 #include "Temperature.h"
 
-#define VOLT_TO_TEMP (73.0/3960.0)
+#define VOLT_TO_TEMP (80.3/3169.0)
 
 static const char *TAG = "example";
 
